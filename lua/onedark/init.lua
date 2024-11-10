@@ -32,7 +32,6 @@ end
 
 function Theme.colorscheme()
   vim.g.colors_name = 'onedark'
-  print(groups.common)
 
   vim.iter(groups):each(function(_, group)
     vim.iter(group):each(function(name, color)
