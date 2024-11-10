@@ -440,6 +440,7 @@ groups.lsp = {
 ---@param opts table
 function Theme.setup(opts)
   vim.tbl_deep_extend('force', groups, opts)
+  Theme.colorscheme()
 end
 
 function Theme.colorscheme()
